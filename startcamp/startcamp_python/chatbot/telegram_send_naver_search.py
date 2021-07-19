@@ -35,7 +35,7 @@ product_price = product['lprice']
 product_link = product['link']
 # print(product_link)
 
-message = f'{product_name}\n{product_price}\n{product_link}'
+message = f'이름: {product_name}\n가격: {product_price}\n링크: {product_link}'
 # print(message)
 
 text = f'{message}.'
