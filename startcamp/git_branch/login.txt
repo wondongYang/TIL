@@ -1,6 +1,0 @@
-login branch에서 만든 login
-<<<<<<< HEAD
-master에서 login 수정
-=======
-login branch에서 login 추가
->>>>>>> login
