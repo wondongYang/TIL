@@ -1,5 +1,3 @@
-# 평균 점수 구하기
-
 def get_dict_avg(a):
     sum_a = 0
     for key in a:
@@ -13,4 +11,4 @@ get_dict_avg({
     'algorithm': 90,
     'django': 89,
     'web': 83,
-}) #=> 85.5
+})

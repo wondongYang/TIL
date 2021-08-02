@@ -1,5 +1,3 @@
-# 문자열 조작
-
 a = 'ba na na'
 print(a.find('a'))
 print(a.find('e'))

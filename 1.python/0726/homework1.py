@@ -1,5 +1,3 @@
-# 모음은 몇 개나 있을까?
-
 def count_vowels(a):
     vowel_a = a.count('a')
     vowel_e = a.count('e')
@@ -9,5 +7,5 @@ def count_vowels(a):
     sum_vowels = vowel_a + vowel_e + vowel_i + vowel_o + vowel_u
     return print(sum_vowels)
 
-count_vowels('apple')  #=> 2
-count_vowels('banana')  #=> 3
+count_vowels('apple')
+count_vowels('banana')

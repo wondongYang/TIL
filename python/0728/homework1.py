@@ -1,8 +1,8 @@
 # Type Class
 
-print(type(list))
-print(type(dict))
-print(type(set))
-print(type(tuple))
-print(type(str))
-print(type(int))
+print(type(list)) #=> <class 'type'>
+print(type(dict)) #=> <class 'type'>
+print(type(set)) #=> <class 'type'>
+print(type(tuple)) #=> <class 'type'>
+print(type(str)) #=> <class 'type'>
+print(type(int)) #=> <class 'type'>

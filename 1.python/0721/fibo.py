@@ -17,5 +17,4 @@ def fibo_for(n):
     for i in range(n-1):
         a, b = b, a+b
     return b
-    
 print(fibo_for(4))
