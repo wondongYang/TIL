@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+  <!-- 1. Nav -->
+  <!-- Component[Navbar][Color themes] 에서 어두운 navbar 가져오기-->
+  <!-- Helpers[Position]에서 sticky-top -->
+  <nav class="navbar navbar-dark bg-dark sticky-top pt-0">
+    <a href="#">
+      <img src="images/logo.png" alt="Logo Image">
+    </a>
+    <!-- list-unstyled list 기본 스타일 없애기-->
+    <ul class="d-flex list-unstyled mb-0">
+      <li class="px-3"><a href="#" class="text-decoration-none text-white fw-bold">Home</a></li>
+      <li class="px-3"><a href="#" class="text-decoration-none text-white fw-bold">Community</a></li>
+      <li class="px-3"><a href="#" class="text-decoration-none text-white fw-bold">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- 2. Header -->
+  <header class="display-2 fw-bold text-white d-flex justify-content-center align-items-center flex-column">
+      <div>Cinema</div>
+      <div>Community</div>
+      <a href="#">
+        <button type="button" class="btn btn-primary btn-lg mt-5">Let's Go</button>
+      </a>
+    </div>
+  </header>
+
+  <!-- 3. Section -->
+  <section class="mt-5">
+    <h2 class="text-center mb-5">Used Skills</h2>
+    <article class="d-flex justify-content-evenly align-items-center text-center">
+      <div>
+        <img src="images/web.png" alt="Web Image">
+        <p>Web</p>
+      </div>
+      <div>
+        <img src="images/html5.png" alt="HTML5 Image">
+        <p>HTML5</p>
+      </div>
+      <div>
+        <img src="images/css3.png" alt="CSS3 Image">
+        <p>CSS3</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- 4. Footer -->
+  <footer class="fixed-bottom d-flex justify-content-center align-items-center text-white bg-primary">
+    <p class="mb-0">HTML & CSS project. Created by wondong</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

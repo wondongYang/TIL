@@ -1,0 +1,88 @@
+/* 아래에 코드를 작성하시오. */
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.main-img {
+    width: 95%;
+    height: 660px;
+    margin: 50px;
+}
+
+article {
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.article-title {
+    align-self: flex-end;
+    margin: 50px;
+}
+
+.card {
+    display : flex;
+}
+
+.card1 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.card2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.card3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.card4 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.section-img {
+    width: auto;
+    height: 300px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-img {
+    width: 30px;
+    height: 30px;
+}
