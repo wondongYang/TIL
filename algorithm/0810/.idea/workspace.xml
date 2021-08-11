@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa940b30-fa2d-4f81-a81a-5281469ab2f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flatten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carrot count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carrot harvest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carrot harvest2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constant 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constantly bigger carrot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/electic bus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min max.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/number card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sweetpotato next to carrot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/alogithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/R_User_Library.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venv/pyvenv.cfg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0811/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0811/List2_practice1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0811/List2_practice2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0811/Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0811/snail number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetpotato next to carrot.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +18,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flatten.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sweetpotato next to carrot(x).py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -257,7 +244,7 @@
     <frame x="-7" y="0" width="982" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2635575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27440348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -359,13 +346,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sweetpotato next to carrot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sweetpotato next to carrot.py" />
     <entry file="file://$PROJECT_DIR$/min max.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -376,9 +357,12 @@
     <entry file="file://$PROJECT_DIR$/Flatten.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sweetpotato next to carrot(x).py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
