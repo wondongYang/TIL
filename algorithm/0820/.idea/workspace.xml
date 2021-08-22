@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc84438b-756b-4fb1-950b-1efc85fe3b5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find a path(2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/find a path.py" beforeDir="false" afterPath="$PROJECT_DIR$/find a path.py" afterDir="false" />
+    <list default="true" id="97706e6d-e7f7-441d-9ed3-e61289a1222f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../0819/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0819/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0819/find a path(2).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0819/find a path.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0819/find a path.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,28 +15,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph path.py">
+        <entry file="file://$PROJECT_DIR$/test note.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="247">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/find a path.py">
+        <entry file="file://$PROJECT_DIR$/number array curl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph path(solution).py">
+        <entry file="file://$PROJECT_DIR$/sudoku check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="437">
+              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -56,18 +56,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pascal's triangle.py" />
-        <option value="$PROJECT_DIR$/delete repeated char.py" />
-        <option value="$PROJECT_DIR$/../0818/bracket check(solution).py" />
-        <option value="$PROJECT_DIR$/bracket check(solution).py" />
-        <option value="$PROJECT_DIR$/bracket check.py" />
-        <option value="$PROJECT_DIR$/attach paper.py" />
-        <option value="$PROJECT_DIR$/graph path.py" />
-        <option value="$PROJECT_DIR$/find a path.py" />
-        <option value="$PROJECT_DIR$/graph path2.py" />
-        <option value="$PROJECT_DIR$/graph path(solution).py" />
-        <option value="$PROJECT_DIR$/find a path(x).py" />
-        <option value="$PROJECT_DIR$/find a path(2).py" />
+        <option value="$PROJECT_DIR$/버스.py" />
+        <option value="$PROJECT_DIR$/bus nod.py" />
+        <option value="$PROJECT_DIR$/test note.py" />
+        <option value="$PROJECT_DIR$/millionaire project.py" />
+        <option value="$PROJECT_DIR$/cut iron bar.py" />
+        <option value="$PROJECT_DIR$/tell vertically.py" />
+        <option value="$PROJECT_DIR$/back to their room.py" />
+        <option value="$PROJECT_DIR$/where can a word place.py" />
+        <option value="$PROJECT_DIR$/sudoku check.py" />
+        <option value="$PROJECT_DIR$/number array curl.py" />
       </list>
     </option>
   </component>
@@ -77,29 +75,29 @@
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="0819" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0819" type="462c0819:PsiDirectoryNode" />
+              <item name="0820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0820" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,9 +111,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.find a path(2)">
-    <configuration name="find a path" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="0819" />
+  <component name="RunManager" selected="Python.number array curl">
+    <configuration name="back to their room" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0820" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -126,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\82108\Desktop\ssafy\TIL\algorithm\0819\find a path.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/back to their room.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,8 +133,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find a path(2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="0819" />
+    <configuration name="number array curl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0820" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -147,7 +145,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\82108\Desktop\ssafy\TIL\algorithm\0819\find a path.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number array curl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,8 +154,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find a path(x)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="0819" />
+    <configuration name="sudoku check" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0820" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -168,7 +166,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\82108\Desktop\ssafy\TIL\algorithm\0819\find a path.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sudoku check.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,8 +175,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graph path2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="0819" />
+    <configuration name="tell vertically" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0820" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -189,7 +187,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\82108\Desktop\ssafy\TIL\algorithm\0819\graph path(solution).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tell vertically.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,8 +196,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graph path(solution)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="0819" />
+    <configuration name="where can a word place" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0820" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -210,7 +208,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph path(solution).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/where can a word place.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.find a path" />
-      <item itemvalue="Python.graph path2" />
-      <item itemvalue="Python.graph path(solution)" />
-      <item itemvalue="Python.find a path(x)" />
-      <item itemvalue="Python.find a path(2)" />
+      <item itemvalue="Python.tell vertically" />
+      <item itemvalue="Python.back to their room" />
+      <item itemvalue="Python.where can a word place" />
+      <item itemvalue="Python.sudoku check" />
+      <item itemvalue="Python.number array curl" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.find a path(2)" />
-        <item itemvalue="Python.find a path(x)" />
-        <item itemvalue="Python.graph path(solution)" />
-        <item itemvalue="Python.graph path2" />
-        <item itemvalue="Python.find a path" />
+        <item itemvalue="Python.number array curl" />
+        <item itemvalue="Python.sudoku check" />
+        <item itemvalue="Python.where can a word place" />
+        <item itemvalue="Python.back to their room" />
+        <item itemvalue="Python.tell vertically" />
       </list>
     </recent_temporary>
   </component>
@@ -241,11 +239,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fc84438b-756b-4fb1-950b-1efc85fe3b5f" name="Default Changelist" comment="" />
-      <created>1629285546283</created>
+      <changelist id="97706e6d-e7f7-441d-9ed3-e61289a1222f" name="Default Changelist" comment="" />
+      <created>1629422390788</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1629285546283</updated>
+      <updated>1629422390788</updated>
     </task>
     <servers />
   </component>
@@ -260,14 +258,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2833698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3256579" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31688598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,7 +272,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,65 +284,76 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pascal's triangle.py" />
-    <entry file="file://$PROJECT_DIR$/../0817/compare string.py">
+    <entry file="file://$PROJECT_DIR$/../0819/graph path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="76">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../0818/bracket check(solution).py" />
-    <entry file="file://$PROJECT_DIR$/bracket check(solution).py" />
-    <entry file="file://$PROJECT_DIR$/../0818/괄호검사2.py">
+    <entry file="file://$PROJECT_DIR$/millionaire project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="1" column="7" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../0818/괄호검사.py">
+    <entry file="file://$PROJECT_DIR$/bus nod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/attach paper.py">
+    <entry file="file://$PROJECT_DIR$/../0819/bracket check.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/delete repeated char.py">
+    <entry file="file://$PROJECT_DIR$/cut iron bar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="57">
+          <caret line="3" column="14" lean-forward="true" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bracket check.py">
+    <entry file="file://$PROJECT_DIR$/back to their room.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph path.py">
+    <entry file="file://$PROJECT_DIR$/sudoku check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="437">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph path(solution).py">
+    <entry file="file://$PROJECT_DIR$/tell vertically.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="76">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find a path.py">
+    <entry file="file://$PROJECT_DIR$/where can a word place.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number array curl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
