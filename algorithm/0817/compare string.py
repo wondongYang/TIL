@@ -10,5 +10,5 @@ for tc in range(T):
                 if sent[i+j] == word[j]:
                     check += 1
             if check == len(word):
-                count += 1
+                count = 1
     print(f'#{tc+1} {count}')

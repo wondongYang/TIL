@@ -5,7 +5,7 @@ for tc in range(T):
     M = N_M[1]
     V = list(map(int, input().split()))
     max_sum = 0
-    min_sum = 10000000
+    min_sum = 1000000
     for i in range(N-M+1):
         sum_V = 0
         for j in range(i, i+M):

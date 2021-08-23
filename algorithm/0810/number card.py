@@ -5,7 +5,7 @@ for tc in range(T):
     dict_arr = {}
     max_count_number = 0
     max_count = 0
-    for i in range(len(arr)):
+    for i in range(N):
         dict_arr[arr[i]] = arr.count(arr[i])
         if dict_arr[arr[i]] >= max_count:
             if arr[i] > max_count_number:

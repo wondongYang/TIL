@@ -2,8 +2,8 @@ T = int(input())
 for tc in range(T):
     N = int(input())
     a_i = list(map(int, input().split()))
-    max_a = a_i[0]
-    min_a = a_i[0]
+    max_a = 0
+    min_a = 1000000
     for i in range(len(a_i)):
         if a_i[i] > max_a:
             max_a = a_i[i]
