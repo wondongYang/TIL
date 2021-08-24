@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82097753-59b0-4ab5-8ce1-789ed1a1cf9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculate2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/부분집합의 합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/순열1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/후위연산.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0810/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0810/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0810/min max.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0810/min max.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0810/number card.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0810/number card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0810/section sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0810/section sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0817/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0817/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0817/compare string.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0817/compare string.py" afterDir="false" />
-    </list>
+    <list default="true" id="82097753-59b0-4ab5-8ce1-789ed1a1cf9f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/후위연산.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -35,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/부분집합의 합.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="836">
-              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -44,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/순열1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -53,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/calculate2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -239,7 +227,7 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -264,31 +252,31 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/순열1.py">
+    <entry file="file://$PROJECT_DIR$/후위연산.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="418">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/부분집합의 합.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
-          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/후위연산.py">
+    <entry file="file://$PROJECT_DIR$/순열1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculate2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
