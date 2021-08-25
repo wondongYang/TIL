@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49ec49a2-07e6-47f9-8819-6cf2dfc56637" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array min sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculate3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tournament card game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/미로1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0823/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0823/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="49ec49a2-07e6-47f9-8819-6cf2dfc56637" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/array min sum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -66,7 +57,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,6 +68,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +227,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2571744" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26269317" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="1" />
@@ -305,7 +296,7 @@
     <entry file="file://$PROJECT_DIR$/array min sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
