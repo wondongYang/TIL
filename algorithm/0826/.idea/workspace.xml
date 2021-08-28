@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cedadef-e3f3-4c98-873d-99f5a2a92983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Magnetic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance or maze(x).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0824/maze.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0824/maze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0825/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0825/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0825/TEST_IM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0825/TEST_IM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +14,11 @@
     <session id="907715008">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -69,16 +61,25 @@
         <entry file="file://$PROJECT_DIR$/../0824/maze.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maze1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maze1.py">
+        <entry file="file://$PROJECT_DIR$/bake pizza.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="228">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -123,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +291,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="966" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -355,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bake pizza.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../0824/미로1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -389,14 +382,21 @@
     <entry file="file://$PROJECT_DIR$/../0824/maze.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maze1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bake pizza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
