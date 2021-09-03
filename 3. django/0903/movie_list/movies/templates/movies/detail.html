@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>제목: {{ movie.title }}</h1>
+  <p>줄거리: {{ movie.overview }}</p>
+  <div>
+    <p>포스터 이미지: </p>
+    <img src="{{ movie.poster_path }}" alt="poster image">
+  </div>
+  <p>생성 시각: {{ movie.created_at }}</p>
+  <p>수정 시각: {{ movie.updated_at }}</p>
+
+  <a href="{% url 'movies:edit' movie.pk %}">
+    <button>수정</button>
+  </a>
+  <form action="{% url 'movies:delete' movie.pk %}" method="POST">
+    {% csrf_token %}
+    <button>삭제</button>
+  </form>
+  
+{% endblock content %}
