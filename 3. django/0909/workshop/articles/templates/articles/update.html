@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load bootstrap5 %}
+  <h1>UPDATE</h1>
+  <form action="{% url 'articles:update' article.pk %}" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <button class='btn btn-primary'>OK</button>
+    <a href="{% url 'articles:detail' article.pk %}" class='btn btn-primary'>Cancel</a>
+  </form>
+  <hr>
+  <a href="{% url 'articles:index' %}">[back]</a>
+{% endblock content %}

@@ -1,4 +1,4 @@
-"""django_06_workshop URL Configuration
+"""curd URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -19,8 +19,11 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
-
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('articles/', include('articles.urls')),
+    path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# settings.MEDIA_URL : meida file public URL을 의미
+# document_root : 실제 해당 미디어 파일은 어디에 있는지 / 
+# 이때 document_root는 키워드인자로 Media File이 위치한 경로로 전달
