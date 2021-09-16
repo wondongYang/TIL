@@ -1,25 +1,36 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_http_methods, require_POST, require_safe
-from django.contrib.auth.decorators import login_required
 from .models import Article
 from .forms import ArticleForm
+from IPython import embed
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 @require_safe
 def index(request):
+    # embed()
+
+    if request.session:
+        # 로그인 했을 때
+        visits_num = request.session.get('visits_num', 0) # dict 문법
+        request.session['visits_num'] = visits_num + 1
+    else:
+        # 로그인 안했을 때
+        visits_num = 0
+
     articles = Article.objects.order_by('-pk')
     
     context = {
         'articles': articles,
+        'visits_num': visits_num,
     }
     return render(request, 'articles/index.html', context)
-
 
 @login_required
 @require_http_methods(['GET', 'POST'])
 def create(request):
     if request.method == 'POST':
-        form = ArticleForm(request.POST)
+        form = ArticleForm(data=request.POST)
         if form.is_valid():
             article = form.save()
             return redirect('articles:detail', article.pk)
@@ -39,15 +50,13 @@ def detail(request, pk):
     }
     return render(request, 'articles/detail.html', context)
 
-
-# @login_required
 @require_POST
 def delete(request, pk):
     if request.user.is_authenticated:
         article = get_object_or_404(Article, pk=pk)
         article.delete()
     return redirect('articles:index')
-
+    
 
 @login_required
 @require_http_methods(['GET', 'POST'])
