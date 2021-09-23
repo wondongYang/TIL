@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31b83821-bb39-4602-a2f2-5fd1e4861a79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../0829/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/judge 5 stone(x).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kill flies 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toggle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0829/.idea/0829.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../0829/.idea/0829.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0829/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0829/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="31b83821-bb39-4602-a2f2-5fd1e4861a79" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +12,11 @@
     <session id="289844695">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/judge 5 stone(x).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="597">
+              <caret line="32" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -275,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/judge 5 stone(x).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="597">
+          <caret line="32" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="32" />
         </state>
       </provider>
     </entry>
