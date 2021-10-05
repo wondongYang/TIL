@@ -1,31 +1,42 @@
-def f(n, i, c):     # 배열의 길이, 교환 위치, 남은 교환횟수
+def f(i, n, c):    
     global maxV
-    global maxC
-    # 현재가 최대 상금인지 확인
+    global minC
 
-    if i==n or c==0:    # 오른쪽에 교환할 원소가 없거나 남은 교환 횟수가 없으면
+    if i == n or c == 0:    # 오른쪽에 교환할 원소가 없거나 남은 교환 횟수가 없으면
+        # 현재 숫자판 순서로 최대값과 비교
+        # 기존의 최대값과 같으면 교환횟수가 큰 쪽은 선택
         s = 0
-        for x in arr:
+        for x in card:
             s = s*10 + x
-        if maxV<s:
+        if maxV < s:
             maxV = s
-            maxC = c
-        elif maxV == s and maxC>s:
-            maxC = c
-        return
+            minC = c
+        elif maxV == s and minC > c:    # 더 많은 교환횟수를 사용한 경우를 선택
+            minC = c
     else:
         for j in range(n):
-            if i!=j:
-                arr[i], arr[j] = arr[j], arr[i]
-                f(n, i+1, c-1)
-                arr[i], arr[j] = arr[j], arr[i]
+            # if i!=j:    # 자기 자신을 제외하고 교환횟수 1에 해당하는 위치와 교환
+            #     card[i], card[j] = card[j], card[i]
+            #     f(i+1, n, c-1)
+            #     card[i], card[j] = card[j], card[i]
+            #     # 기준 위치만 바꾸고 교환없는 호출
+            # else:
+            #     f(i+1, n, c)
+            cnt = 0 if i == j else 1
+            card[i], card[j] = card[j], card[i]
+            f(i+1, n, c - cnt)
+            card[i], card[j] = card[j], card[i]
 
 
 T = int(input())
 for tc in range(1, T+1):
-    num, N = input().split()
-    arr = list(map(int, num))
-    maxV = 0
-    maxC = 0
-    f(len(arr), 0, int(N))
-    print(f'#{maxV} {maxC}')
+    num, cnt = input().split()
+    card = list(map(int, num))
+    maxV = 0                    # 최대상금
+    minC = 0                    # 최대상금을 만들고 남은 교환횟수
+    f(0, len(card), int(cnt))   # 교환 기준위치, 숫자판 개수, 교환횟수
+    if minC % 2:    # 교환 횟수가 홀수번 남은 경우... 1의 자리와 10의 자리 교환
+        n1 = maxV % 10
+        n2 = maxV % 100 // 10
+        maxV = maxV // 100 * 100 + n1 * 10 + n2
+    print(f'#{tc} {maxV}')

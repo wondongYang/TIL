@@ -7,5 +7,5 @@ def perm(n, k):
             p[k], p[i] = p[i], p[k]
             perm(n, k+1)
             p[k], p[i] = p[i], p[k]
-p = [1, 2, 3]
+p = [2, 3, 4]
 perm(3, 0)
