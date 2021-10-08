@@ -65,7 +65,27 @@ for tc in range(T):
         else:               # 왼쪽 구간 선택
             return binary_search(l, m-1, num)
 
-    nature2.sort()
+    # nature2 sort 하기
+    def hoare(A, l, r):
+        i, j = l, r
+        x = A[l]
+        while i <= j:
+            while i <= j and A[i] <= x:
+                i += 1
+            while i <= j and A[j] >= x:
+                j -= 1
+            if i < j:
+                A[i], A[j] = A[j], A[i]
+        A[l], A[j] = A[j], A[l]
+        return j
+
+    def qsort(A, l, r):
+        if l < r:
+            p = hoare(A, l, r)
+            qsort(A, l, p-1)
+            qsort(A, p+1, r)
+
+    qsort(nature2, 0, len(nature2)-1)
     ans_list = []
     for i in nature3:
         ans = binary_search(0, len(nature2)-1, i)
