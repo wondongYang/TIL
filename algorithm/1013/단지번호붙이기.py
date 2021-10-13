@@ -7,6 +7,15 @@ def dfs1(i, j, N):
         if 0 <= ni < N and 0 <= nj < N and arr[ni][nj] == 1 and visited[ni][nj] == 0:
             dfs1(ni, nj, N)
 
+def dfs2(i, j, N):
+    visited[i][j] = 1
+    cnt = 1
+    for di, dj in [[0, 1], [1, 0], [0, -1], [-1, 0]]:
+        ni, nj = i + di, j + dj
+        if 0 <= ni < N and 0 <= nj < N and arr[ni][nj] == 1 and visited[ni][nj] == 0:
+            cnt += dfs2(ni, nj, N)
+    return cnt
+
 def bfs(i, j, N):
     cnt = 0
     q = [(i, j)]        # 큐생성, 시작점 인큐
@@ -35,7 +44,8 @@ for i in range(N):
             ans += 1
             # cnt = 0
             # dfs1(i, j, N)
-            cnt = bfs(i, j, N)
+            # cnt = bfs(i, j, N)
+            cnt = dfs2(i, j, N)
             block.append(cnt)
 
 print(ans)
