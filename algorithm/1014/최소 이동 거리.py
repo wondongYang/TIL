@@ -31,4 +31,4 @@ for tc in range(T):
 
     D = [0]*(V+1)
     dijkstra(0, V)
-    print(f'{tc+1} {D}')
+    print(f'#{tc+1} {D[-1]}')
