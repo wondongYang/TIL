@@ -5,4 +5,7 @@ urlpatterns = [
     path('articles/', views.article_list),
     # patt('articles/new', views.new),
     path('articles/<int:article_pk>/', views.article_detail),
+    path('comments/', views.comment_list),
+    path('comments/<int:comment_pk>/', views.comment_detail),
+    path('articles/<int:article_pk>/comments/', views.comment_create),
 ]
