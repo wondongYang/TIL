@@ -37,14 +37,25 @@
 
     // 2-1
     const myButton = document.querySelector('#my-button')
+    myButton.addEventListener('click', alertMessage)
 
     // 2-2
     const myTextInput = document.querySelector('#my-text-input')
-
+    myTextInput.addEventListener('input', function (event) {
+      console.log(event)
+      const myPtag = document.querySelector('#my-paragraph')
+      myPtag.innerText = event.target.value
+    })
 
     // 2-3
     const colorInput = document.querySelector('#change-color-input')
+    
+    const changeColor = function () {
+      const h2Tag = document.querySelector('h2')
+      h2Tag.style.color = event.target.value
+    }
 
+    colorInput.addEventListener('input', changeColor)
   </script>
 </body>
 </html>
