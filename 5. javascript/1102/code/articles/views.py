@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.http.response import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_safe, require_http_methods, require_POST
-from django.http import HttpResponse, HttpResponseForbidden
+from django.http import HttpResponse
 from .models import Article, Comment
 from .forms import ArticleForm, CommentForm
 

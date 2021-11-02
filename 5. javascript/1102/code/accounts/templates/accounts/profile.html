@@ -6,16 +6,23 @@
 {% with followings=person.followings.all followers=person.followers.all %}
   <div>
     <div>
-      팔로잉 : {{ followings|length }} / 팔로워 : {{ followers|length }}
+      팔로잉 : 
+      <span id="follow-count-{{ user.pk }}">
+        {{ followings|length }}
+      </span> 
+      / 팔로워 : 
+      <span id="follow-count-{{ person.pk }}">
+      {{ followers|length }}
+      </span>
     </div>
     {% if request.user != person %}
       <div>
-        <form action="{% url 'accounts:follow' person.pk %}" method="POST">
+        <form class="follow-form" data-id="{{ person.pk }}">
           {% csrf_token %}
           {% if request.user in followers %}
-            <button>언팔로우</button>
+            <button id="follow-{{ person.pk }}">언팔로우</button>
           {% else %}
-            <button>팔로우</button>
+            <button id="follow-{{ person.pk }}">팔로우</button>
           {% endif %}
         </form>
       </div>
@@ -48,4 +55,44 @@
 <hr>
 
 <a href="{% url 'articles:index' %}">[back]</a>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  const forms = document.querySelectorAll('.follow-form')
+  forms.forEach(function (form) {
+    // console.log(form)
+    // axios.get('http://127.0.0.1/accounts/')
+    form.addEventListener('submit', function (event) {
+      event.preventDefault()
+      console.log(event.target)
+      console.log(event.target.dataset)
+      const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value
+      console.log(csrftoken)
+      const accountId = event.target.dataset.id
+      axios.post(`http://127.0.0.1:8000/accounts/${accountId}/follow/`, {}, {
+        headers: {'X-CSRFToken': csrftoken}
+        })
+        .then(function (response) {
+          console.log(response.data)
+          const count = response.data.count
+          const followed = response.data.followed
+          // const {count, followed} = response.data
+          const followButton = document.querySelector(`#follow-${accountId}`)
+          if (followed) {
+            followButton.innerText = '언팔로우'
+          } else {
+            followButton.innerText = '팔로우'
+          }
+          // followButton.innerText = followd ? '팔로우 취소' : '팔로우'
+          const followCount = document.querySelector(`#follow-count-${accountId}`)
+          followCount.innerText = count
+        })
+        .catch((err) => {
+          if (err.response.status === 401) {
+            window.location.href = '/accounts/login/'
+          }
+        })
+    })
+  })
+</script>
 {% endblock %}
