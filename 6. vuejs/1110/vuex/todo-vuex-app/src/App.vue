@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <h1>Todo List</h1>
-    <h2>모든 투두 개수: {{ allTodosCount }}</h2>
-    <h2>완료된 투두 개수: {{ completedTodosCount }}</h2>
-    <h2>완료되지 않은 투두 개수: {{ uncompletedTodosCount }}</h2>
+    <h2>All Todos: {{ allTodosCount }}</h2>
+    <h2>Completed Todo: {{ completedTodosCount }}</h2>
+    <h2>Uncompleted Todo: {{ uncompletedTodosCount }}</h2>
     <todo-list></todo-list>
     <todo-form></todo-form>
   </div>
