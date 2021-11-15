@@ -21,10 +21,18 @@ export default {
     }
   },
   methods: {
+    setToken: function () {
+      const token = localStorage.getItem('jwt')
+      const config = {
+        Authorization: `JWT ${token}`
+      }
+      return config
+    },
     getTodos: function () {
       axios({
         method: 'get',
-        url: 'http://127.0.0.1:8000/todos/'
+        url: 'http://127.0.0.1:8000/todos/',
+        headers: this.setToken()
       })
         .then(res => {
           console.log(res)
@@ -37,7 +45,8 @@ export default {
     deleteTodo: function (todo) {
       axios({
         method: 'delete',
-        url: `http://127.0.0.1:8000/todos/${todo.id}/`
+        url: `http://127.0.0.1:8000/todos/${todo.id}/`,
+        headers: this.setToken()
       })
         .then(res => {
           console.log(res)
@@ -57,6 +66,7 @@ export default {
         method: 'put',
         url: `http://127.0.0.1:8000/todos/${todo.id}/`,
         data: todoItem,
+        headers: this.setToken()
       })
         .then(res => {
           console.log(res)
@@ -65,7 +75,11 @@ export default {
       },
     },
   created: function () {
-    this.getTodos()
+    if (localStorage.getItem('jwt')) {
+      this.getTodos()
+    } else {
+      this.$router.push({ name: "Login" })
+    }
   }
 }
 </script>
