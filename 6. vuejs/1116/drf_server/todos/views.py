@@ -15,19 +15,24 @@ from .models import Todo
 @api_view(['GET', 'POST'])
 def todo_list_create(request):
     if request.method == 'GET':
-        todos = Todo.objects.all()
-        serializer = TodoSerializer(todos, many=True)
+        # todos = Todo.objects.all()
+        # serializer = TodoSerializer(todos, many=True)
+        serializer = TodoSerializer(request.user.todos, many=True)
         return Response(serializer.data)
     else:
         serializer = TodoSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
-            serializer.save()
+            serializer.save(user=request.user)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 @api_view(['PUT', 'DELETE'])
 def todo_update_delete(request, todo_pk):
     todo = get_object_or_404(Todo, pk=todo_pk)
+
+    if not request.user.todos.filter(pk=todo_pk).exists():
+        return Response({'error': '권한이 없습니다. 돌아가!'})
+
     if request.method == 'PUT':
         serializer = TodoSerializer(todo, data=request.data)
         if serializer.is_valid(raise_exception=True):

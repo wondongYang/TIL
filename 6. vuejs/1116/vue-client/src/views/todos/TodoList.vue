@@ -23,8 +23,21 @@ export default {
     }
   },
   methods: {
+    setToken: function () {
+      const token = localStorage.getItem("jwt")
+
+      const config = {
+        headers: {
+          Authorization: `JWT ${token}`,
+        }
+      }
+
+      return config
+    },
     getTodos: function () {
-      axios.get(`${SERVER_URL}/todos/`)
+      const config = this.setToken()
+
+      axios.get(`${SERVER_URL}/todos/`, config)
         .then((res) => {
           console.log(res)
           this.todos = res.data
@@ -34,7 +47,9 @@ export default {
         })
     },
     deleteTodo: function (todo) {
-      axios.delete(`${SERVER_URL}/todos/${todo.id}/`)
+      const config = this.setToken()
+
+      axios.delete(`${SERVER_URL}/todos/${todo.id}/`, config)
         .then((res) => {
           console.log(res)
           const targetTodoIdx = this.todos.findIndex((todo) => {
@@ -47,6 +62,8 @@ export default {
         })
     },
     updateTodoStatus: function (todo) {
+      const config = this.setToken()
+
       const todoItem = {
         // { todo.title = this.title, ...}
         ...todo, // 20개가 있다면 전부 다 바꿔야함(번거롭다!)
@@ -54,7 +71,7 @@ export default {
         completed: !todo.completed
       }
 
-      axios.put(`${SERVER_URL}/todos/${todo.id}/`, todoItem)
+      axios.put(`${SERVER_URL}/todos/${todo.id}/`, todoItem, config)
         .then((res) => {
           console.log(res)
           todo.completed = !todo.completed
@@ -62,6 +79,12 @@ export default {
       },
     },
   created: function () {
+    if (localStorage.getItem("jwt")) {
+      this.getTodos()
+    } else {
+      this.$router.push({ name: 'Login' })
+    }
+
     this.getTodos()
     // vuex에서는 actions을 호출(store안에 actions을 호출)
   }
